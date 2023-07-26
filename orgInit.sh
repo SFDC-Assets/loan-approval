@@ -1,4 +1,4 @@
-sfdx force:org:create -f config/project-scratch-def.json -d 30 -s -w 3
+sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --userprefix loan -o approval.workshop
 sfdx force:source:push
 sfdx force:user:password:generate
 #assign permset to user

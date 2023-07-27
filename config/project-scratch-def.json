@@ -12,12 +12,10 @@
     },
     "securitySettings": {
       "enableAuditFieldsInactiveOwner":true
-      
     },
     "analyticsSettings": {
       "enableInsights": true,
-      "enableWaveRecordNavigation":true,
-      "enableWaveReplication":true
+      "enableWaveRecordNavigation":true
     }
   }
 }

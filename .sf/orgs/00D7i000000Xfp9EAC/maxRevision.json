@@ -1,0 +1,251 @@
+{
+  "serverMaxRevisionCounter": 41,
+  "sourceMembers": {
+    "ListView__Loan__c.Loans_Closed": {
+      "serverRevisionCounter": 24,
+      "lastRetrievedFromServer": 24,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Loan__c.Loans_In_Progress": {
+      "serverRevisionCounter": 25,
+      "lastRetrievedFromServer": 25,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Recommendation.All_Recommendations": {
+      "serverRevisionCounter": 26,
+      "lastRetrievedFromServer": 26,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Amount__c": {
+      "serverRevisionCounter": 1,
+      "lastRetrievedFromServer": 1,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Broker_Status__c": {
+      "serverRevisionCounter": 2,
+      "lastRetrievedFromServer": 2,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Broker_Tier__c": {
+      "serverRevisionCounter": 3,
+      "lastRetrievedFromServer": 3,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Client_Risk_Rating__c": {
+      "serverRevisionCounter": 4,
+      "lastRetrievedFromServer": 4,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Credit_Score_Borrower_2__c": {
+      "serverRevisionCounter": 5,
+      "lastRetrievedFromServer": 5,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Credit_Score__c": {
+      "serverRevisionCounter": 6,
+      "lastRetrievedFromServer": 6,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Current_Term_In_Months__c": {
+      "serverRevisionCounter": 7,
+      "lastRetrievedFromServer": 7,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Employment_Status_Borrower_2__c": {
+      "serverRevisionCounter": 8,
+      "lastRetrievedFromServer": 8,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Employment_Status__c": {
+      "serverRevisionCounter": 9,
+      "lastRetrievedFromServer": 9,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Global_Debt_Servicing_Ratio__c": {
+      "serverRevisionCounter": 10,
+      "lastRetrievedFromServer": 10,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Interest_Rate__c": {
+      "serverRevisionCounter": 11,
+      "lastRetrievedFromServer": 11,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Loan_Id__c": {
+      "serverRevisionCounter": 12,
+      "lastRetrievedFromServer": 12,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Loan_To_Value__c": {
+      "serverRevisionCounter": 13,
+      "lastRetrievedFromServer": 13,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Mortgage_Position__c": {
+      "serverRevisionCounter": 14,
+      "lastRetrievedFromServer": 14,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Mortgage_Purpose__c": {
+      "serverRevisionCounter": 15,
+      "lastRetrievedFromServer": 15,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Occupancy_Type__c": {
+      "serverRevisionCounter": 16,
+      "lastRetrievedFromServer": 16,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Property_Type__c": {
+      "serverRevisionCounter": 17,
+      "lastRetrievedFromServer": 17,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Self_Employed__c": {
+      "serverRevisionCounter": 18,
+      "lastRetrievedFromServer": 18,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Stage__c": {
+      "serverRevisionCounter": 19,
+      "lastRetrievedFromServer": 19,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Loan__c.Total_Debt_Servicing_Ratio__c": {
+      "serverRevisionCounter": 20,
+      "lastRetrievedFromServer": 20,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Recommendation.Category__c": {
+      "serverRevisionCounter": 21,
+      "lastRetrievedFromServer": 21,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Recommendation.Sub_Category__c": {
+      "serverRevisionCounter": 22,
+      "lastRetrievedFromServer": 22,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "Profile__Admin": {
+      "serverRevisionCounter": 39,
+      "lastRetrievedFromServer": 39,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "Layout__Loan__c-Loan Layout": {
+      "serverRevisionCounter": 27,
+      "lastRetrievedFromServer": 27,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Recommendation-Recommendation Layout": {
+      "serverRevisionCounter": 28,
+      "lastRetrievedFromServer": 28,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "CustomObject__Loan__c": {
+      "serverRevisionCounter": 23,
+      "lastRetrievedFromServer": 23,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomTab__Loan__c": {
+      "serverRevisionCounter": 31,
+      "lastRetrievedFromServer": 31,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomApplication__Loans": {
+      "serverRevisionCounter": 32,
+      "lastRetrievedFromServer": 32,
+      "memberType": "CustomApplication",
+      "isNameObsolete": false
+    },
+    "ContentAsset__assetplanningbasics_1": {
+      "serverRevisionCounter": 34,
+      "lastRetrievedFromServer": 34,
+      "memberType": "ContentAsset",
+      "isNameObsolete": false
+    },
+    "ContentAsset__assetplanningbasics_11": {
+      "serverRevisionCounter": 35,
+      "lastRetrievedFromServer": 35,
+      "memberType": "ContentAsset",
+      "isNameObsolete": false
+    },
+    "ContentAsset__cs1": {
+      "serverRevisionCounter": 36,
+      "lastRetrievedFromServer": 36,
+      "memberType": "ContentAsset",
+      "isNameObsolete": false
+    },
+    "ContentAsset__kitchen": {
+      "serverRevisionCounter": 37,
+      "lastRetrievedFromServer": 37,
+      "memberType": "ContentAsset",
+      "isNameObsolete": false
+    },
+    "ContentAsset__shutterstock_483396691_1": {
+      "serverRevisionCounter": 38,
+      "lastRetrievedFromServer": 38,
+      "memberType": "ContentAsset",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Loans_UtilityBar": {
+      "serverRevisionCounter": 30,
+      "lastRetrievedFromServer": 30,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Loan_Record_Page": {
+      "serverRevisionCounter": 29,
+      "lastRetrievedFromServer": 29,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "PermissionSet__LoanAdmin": {
+      "serverRevisionCounter": 40,
+      "lastRetrievedFromServer": 40,
+      "memberType": "PermissionSet",
+      "isNameObsolete": false
+    },
+    "RecommendationStrategy__Loan_Recommendations": {
+      "serverRevisionCounter": 41,
+      "lastRetrievedFromServer": 41,
+      "memberType": "RecommendationStrategy",
+      "isNameObsolete": false
+    },
+    "Flow__Simple_Message_Flow": {
+      "serverRevisionCounter": 33,
+      "lastRetrievedFromServer": 33,
+      "memberType": "Flow",
+      "isNameObsolete": false
+    }
+  }
+}

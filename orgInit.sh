@@ -1,12 +1,12 @@
-sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --userprefix loan -o approval.workshop
-sfdx force:source:push
-sfdx shane:user:password:set -g User -l User -p salesforce1
+sf demoutil org create scratch -f config/project-scratch-def.json -d 5 -s -p loan -e approval.demo
+sf project deploy start
+sf demoutil user password set -p salesforce1 -g User -l User
 #assign permset to user
-sfdx force:user:permset:assign --permsetname LoanAdmin
+sf org assign permset -n LoanAdmin
 #Load Opportunity and Recommendation data
-sfdx force:data:bulk:upsert -s Loan__c -f data/loans.csv -i Loan_Id__c -w 3
-sfdx force:apex:execute -f data/recommendations.cls
+sf data bulk upsert -s Loan__c -f data/loans.csv -i Loan_Id__c -w 3
+sf apex run -f data/recommendations.cls
 #Install EPB Model Accuracy Package
 #sfdx force:package:install -p 04t4J000002ASSJ
 #Open org
-sfdx force:org:open -p /lightning/setup/SetupOneHome/home
+sf org open -p /lightning/setup/SetupOneHome/home

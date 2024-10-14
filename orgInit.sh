@@ -4,7 +4,8 @@ sf demoutil user password set -p salesforce1 -g User -l User
 #assign permset to user
 sf org assign permset -n LoanAdmin
 #Load Opportunity and Recommendation data
-sf data upsert bulk -s Loan__c -f data/loans.csv -i Loan_Id__c -w 30
+# sf data upsert bulk -s Loan__c -f data/loans.csv -i Loan_Id__c -w 30
+sf automig load  -d automig
 sf apex run -f data/recommendations.cls
 #Install EPB Model Accuracy Package
 #sfdx force:package:install -p 04t4J000002ASSJ
